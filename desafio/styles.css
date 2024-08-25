@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #142536; /* Azul de fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    height: 80%;
+    background: rgb(82, 98, 240);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-section, .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-section {
+    border-right: 2px solid #ccc;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: black; /* Texto preto */
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid white; /* Bordas brancas */
+    border-radius: 4px;
+    resize: none;
+    color: black; /* Texto preto */
+    background-color: #f8f9fa; /* Cor de fundo das caixas */
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between; /* Distribui os botões horizontalmente */
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Azul dos botões */
+    color: white;
+    border: 2px solid white; /* Bordas brancas */
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0px; /* Espaçamento horizontal entre os botões */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul escuro ao passar o mouse */
+}
+
+button:active {
+    background-color: #003d80; /* Azul ainda mais escuro ao clicar */
+}
